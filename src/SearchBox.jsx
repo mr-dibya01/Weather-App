@@ -3,7 +3,6 @@ import Button from '@mui/material/Button';
 import "./SearchBox.css"
 import { useState } from 'react';
 
-// https://api.openweathermap.org/data/2.5/weather?q=Mumbai&appid=27ab36b8dfe3375c51e5a2512aa0e8bf&units=metric
 
 export default function SearchBox({ setinfo }){
     const API_URL ="https://api.openweathermap.org/data/2.5/weather"
